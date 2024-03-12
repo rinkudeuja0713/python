@@ -22,4 +22,3 @@ else:
     print("Good Night ! It is currently ", timestamp0)
 
 
-

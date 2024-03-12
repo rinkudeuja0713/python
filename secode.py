@@ -19,7 +19,9 @@ if (message=="c"):
     user_input = msg.split()
     for word in user_input:
         if len(word)>=3:
-            print(word[1:]+word[0])
+            r1="dph"
+            r2="lod"
+            print(r1+word[1:]+word[0]+r2)
         else:
             print(word[::-1])
 elif (message == "d"):
@@ -27,7 +29,8 @@ elif (message == "d"):
     user_input2=msg2.split()
     for word2 in user_input2:
         if len(word2)>= 3:
-            print(word2[-1]+word2[0:-1])
+            word3= word2[3:-3]
+            print(word3[-1]+word3[:-1])
         else:
             print(word2[::-1])
 
